@@ -2,7 +2,7 @@
 
 So in order to refactor our code, we needed to forgo the nested loops. As an alternative, I have created multiple arrays for our for loops to loop through. These arrays are TickersVolume, TickersStartPrice, and TickersEndprice. I have also created a TickersIndex which is now used to hold which Ticker the former arrays will be looped for.
 
-So now, as the code loops through the rows, it will update the ticker volume for the volume of each row for that ticker as long as the row matches that ticker. **TickersVolume(tickersindex) = TickersVolume(tickersindex)+ Cells(i,6).Value
+So now, as the code loops through the rows, it will update the ticker volume for the volume of each row for that ticker as long as the row matches that ticker. **TickersVolume(tickersindex) = TickersVolume(tickersindex)+ Cells(i,6).Value**
 
 While looping through the rows, the code will update the starting price for each ticker as long as the ticker matches that of the previous row.
 
