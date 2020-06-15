@@ -9,3 +9,5 @@ While looping through the rows, the code will update the starting price for each
 Lastly, if the the next ticker row in the loop does not match the current ticker, then two things will happen. First, the code will log the endprice for that ticker in the end price row. Second, the Tickerindex will go up by one: effectively advancing to the next ticker so that the code can continue to evaluate for the next stock.
 
 Lastly, we have modified the outputs to display our outputs for each iterator so that we can visualize all of our analysis. **Example: Cells(4 + i, 2).Value = tickersVolume(i)**
+
+We have conditional formatting applied to the returns for each stock to help display easier whether or not a stock had positive or negativem returns and have also added some visual flair sucha s bolding and underlining.
